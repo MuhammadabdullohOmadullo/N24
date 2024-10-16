@@ -1,39 +1,20 @@
 /* GLOBAL */
+:root {
+  --accennt-color:#7296ec;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-/* .site-header-top-container{
-display: flex;
-}
-
-
-.currency-rates-item {
-  margin-right: 30px;
-  list-style-type:none;
-}
-
-.lang-toggle {
-  display: flex;
-  margin-left: auto;
-  margin-right: 50px;
-}
-
-.lang-toggle__change {
-margin-right: 20px;
-} */
-
-
-
-/* html {
-  height: 100%;
-  scroll-behavior: smooth;
-} */
-
 body {
-
 /* height: 100%; */
 padding: 0;
 margin: 0;
@@ -50,7 +31,7 @@ height: auto;
 } */
 /* OUTLINE STYLES */
 *:focus{
-outline: 2px dashed #7296ec;
+outline: 2px dashed var(--accennt-color);
 outline-offset: 3px;
 }
 
@@ -188,7 +169,7 @@ background-position: 15px center;
   cursor: pointer;
 }
 .button-primary {
-  background-color: #7296ec;
+  background-color:var(--accennt-color);
   color: #fff;
 }
 .button-primary:hover {
@@ -262,7 +243,7 @@ margin-right: 34px;
   text-decoration: none;
 }
 .sitenav-link:hover{
-color: #7296ec;
+color: var(--accennt-color);
 }
 .sitenav-link:active{
 opacity: 0.6;
@@ -319,7 +300,7 @@ opacity: 0.6;
 }
 
 .article-card-link:hover{
-  color: #7296ec;
+  color: var(--accennt-color);
 }
 .article-card-link:active{
   opacity: 0.6;
@@ -431,7 +412,7 @@ color: #000;
 text-decoration: none;
 }
 .article-horizontal-link:hover{
-  color: #7296ec;
+  color: var(--accennt-color);
 }
 .article-horizontal-link:active{
 opacity: 0.06;
@@ -530,7 +511,7 @@ margin-bottom: 10px;
 }
 
 .sidebar-news-card-link:hover{
-  color: #7296ec;
+  color: var(--accennt-color);
 }
 .sidebar-news-card-link:active{
 opacity: 0.06;
